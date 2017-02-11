@@ -1,0 +1,39 @@
+@import './app/home/home';
+@import './app/about/about';
+@import './app/contact/contact';
+
+$button-social : 60px;
+$button-icon : 2.6em;
+.btn-social-icon{
+    height: $button-social;
+    width: $button-social;
+    margin: 5px;
+}
+.btn-social-icon > :first-child {
+    line-height: $button-social;
+    font-size: $button-icon;
+}
+.masthead-brand{
+    font-size: 20px;
+    // font-weight: bold;
+}
+main {
+    /* start 'enter' transition */
+    &.ng-enter {
+        /* transition on enter for .5s */
+        transition: 1s;
+ 
+        /* start with opacity 0 (invisible) */
+        opacity: 0;
+    }
+ 
+    /* end 'enter' transition */
+    &.ng-enter-active {
+        /* end with opacity 1 (fade in) */
+        opacity: 1;
+    }
+}
+/* $color: #000;
+// .label-warning {
+//     background-color: $color !important;
+// }*/
