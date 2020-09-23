@@ -7,7 +7,7 @@
 // 'test/spec/{,*/}*.js'
 // If you want to recursively match all subfolders, use:
 // 'test/spec/**/*.js'
-
+const sass = require('node-sass');
 module.exports = function (grunt) {
 
   // Time how long tasks take. Can help when optimizing build times
@@ -167,6 +167,7 @@ module.exports = function (grunt) {
     // Compiles Sass to CSS and generates necessary files if requested
     sass: {
       options: {
+        implementation: sass,
         sourceMap: true,
         sourceMapEmbed: true,
         sourceMapContents: true,

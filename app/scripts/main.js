@@ -32,22 +32,22 @@ function toggleSidePanel() {
 function moveBars() {
     var javaBar = document.getElementById("javaBar");
     var webDevBar = document.getElementById("webDevBar");
-    var pyBar = document.getElementById("pyBar");
-    var cBar = document.getElementById("cBar");
+    var phpBar = document.getElementById("phpBar");
+    var devOpsBar = document.getElementById("devOpsBar");
     var itBar = document.getElementById("itBar");
     var enBar = document.getElementById("enBar");
     var frBar = document.getElementById("frBar");
     var deBar = document.getElementById("deBar");
-    
+
     var width = 1;
 
     var javaMax = 90;
     var javaWidth = 1;
-    var cMax = 60;
-    var cWidth = 1;
-    var pyMax = 50;
-    var pyWidth = 1;
-    var webDevMax = 85;
+    var phpMax = 70;
+    var phpWidth = 1;
+    var devOpsMax = 60;
+    var devOpsWidth = 1;
+    var webDevMax = 80;
     var webDevWidth = 1;
     var itMax = 100;
     var itWidth = 1;
@@ -66,35 +66,35 @@ function moveBars() {
             width++;
             if(itWidth < itMax){
               itWidth++;
-              itBar.style.width = width + '%'; 
+              itBar.style.width = width + '%';
             }
             if(enWidth < enMax){
               enWidth++;
-              enBar.style.width = width + '%'; 
+              enBar.style.width = width + '%';
             }
             if(frWidth < frMax){
               frWidth++;
-              frBar.style.width = width + '%'; 
+              frBar.style.width = width + '%';
             }
             if(deWidth < deMax){
               deWidth++;
-              deBar.style.width = width + '%'; 
+              deBar.style.width = width + '%';
             }
             if(javaWidth < javaMax){
               javaWidth++;
-              javaBar.style.width = width + '%'; 
+              javaBar.style.width = width + '%';
             }
             if(webDevWidth < webDevMax){
               webDevWidth++;
-              webDevBar.style.width = width + '%'; 
+              webDevBar.style.width = width + '%';
             }
-            if(pyWidth < pyMax){
-              pyWidth++;
-              pyBar.style.width = width + '%'; 
+            if(phpWidth < phpMax){
+              phpWidth++;
+              phpBar.style.width = width + '%';
             }
-            if(cWidth < cMax){
-              cWidth++;
-              cBar.style.width = width + '%'; 
+            if(devOpsWidth < devOpsMax){
+              devOpsWidth++;
+              devOpsBar.style.width = width + '%';
             }
         }
     }
