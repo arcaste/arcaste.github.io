@@ -1,32 +1,56 @@
 // bower:scss
 // endbower
 
-.fa-2x{
+.fa-2x {
   font-size: 2em !important;
 }
 
-.fa-3x{
+.fa-3x {
   font-size: 3em !important;
 }
 
-.fa-4x{
+.fa-4x {
   font-size: 4em !important;
 }
 
 h3 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 h2 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 h1 {
-    font-size: 30px;
+  font-size: 30px;
+}
+
+.w1 {
+  width: 1%;
 }
 
 body {
   background: #eae8e7;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+}
+.wrapper {
+  max-width: 1400px;
+  margin-bottom: 75px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff !important;
+  background-color: #009688 !important;
+  height: 40px;
+  display: table;
+}
+
+.copyrights {
+  display: table-cell;
+  vertical-align: middle;
 }

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Resume</title>
+  <title>Aron Castellani | Software Engineer</title>
   <meta name="description" content="Aron Castellani's personal website">
   <meta name="keywords" content="HTML, CSS, Javascript, Resume, Curriculum, Vitae, Java, Sprint, JavaEE, Php, AngularJS, React, Python, C, Django, Django REST, PostgreSQL, Android, iOS, Smart Grid, Internet of Things, CoAP, Contiki">
   <meta name="author" content="Aron Castellani">
@@ -36,13 +36,10 @@
 </head>
 
 <body class="w3-light-grey">
-  <!-- <a href="https://github.com/arcaste/html-resume-curriculum-vitae" target="_blank">
-    <img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67"
-      alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a> -->
   <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <div class="wrapper w3-content w3-margin-top">
     <div class="w3-row-padding w3-right">
       <p>
         <a href="https://www.facebook.com/aron.castellani" target="_blank"><i class="fa fa-facebook-official fa-fw fa-2x w3-hover-text-cyan w3-large w3-text-teal"></i></a>
@@ -51,12 +48,12 @@
       </p>
     </div>
     <div class="w3-row-padding">
-      <div class="w3-third">
+      <div class="w3-third w3-margin-bottom">
         <div class="w3-white w3-text-grey w3-card-2 w3-hover-shadow">
           <div class="w3-display-container">
             <img src="/images/avatar.jpg" style="width:100%" alt="Avatar">
           </div>
-          <div id="SidePanel" class="w3-accordion w3-container">
+          <div id="SidePanel" class="w3-container">
             <h1>Aron Castellani</h1>
             <p>
               <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>
@@ -67,79 +64,71 @@
               Switzerland
             </p>
             <hr>
-            <div onclick="toggleSidePanel()" class="w3-large w3-padding-16"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills<i id="SidePanelIcon" class="fa fa-arrow-down fa-fw w3-right w3-xxlarge w3-text-teal w3-hover-text-cyan"></i></b></div>
+            <h2 onclick="toggleSidePanel()" class="w3-accordion w3-large w3-padding-16">
+              <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills<i id="SidePanelIcon" class="fa fa-arrow-down fa-fw w3-right w3-xlarge w3-text-teal w3-hover-text-cyan"></i>
+            </h2>
             <div id="SidePanelContent" class="w3-accordion-content">
               <p>JavaEE/Spring</p>
               <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div id="javaBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%">
+                <div id="javaBar" class="w1 w3-progressbar w3-round-xlarge w3-teal">
                 </div>
               </div>
               <p>JS/HTML5/CSS3, Angular, React</p>
               <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div id="webDevBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%">
+                <div id="webDevBar" class="w1 w3-progressbar w3-round-xlarge w3-teal" >
                 </div>
               </div>
               <p>PHP</p>
               <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div id="phpBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%">
+                <div id="phpBar" class="w1 w3-progressbar w3-round-xlarge w3-teal" >
                 </div>
               </div>
               <p>DevOps, CI/CD, Docker</p>
               <div class="w3-progress-container w3-round-xlarge w3-small">
-                <div id="devOpsBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%">
+                <div id="devOpsBar" class="w1 w3-progressbar w3-round-xlarge w3-teal" >
                 </div>
               </div>
               <br>
-              <p class="w3-large w3-text-theme"><b><i class="fa fa-paint-brush fa-fw w3-margin-right w3-text-teal"></i>Graphic</b></p>
+              <p class="w3-large w3-text-theme"><i class="fa fa-paint-brush fa-fw w3-margin-right w3-text-teal"></i>Graphic</p>
               <div class="w3-row">
                 <span class="w3-small w3-tag w3-round w3-blue w3-text-white">Photoshop</span>
                 <span class="w3-small w3-tag w3-round w3-cyan w3-text-white">Lightroom</span>
-                <!-- <span class="w3-small w3-tag w3-round w3-red w3-text-white">Unity</span> -->
-                <!-- <span class="w3-small w3-tag w3-round w3-orange w3-text-white">AutoCAD</span> -->
               </div>
               <br>
-              <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+              <p class="w3-large w3-text-theme"><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</p>
               <p>Italian</p>
               <div class="w3-progress-container w3-round-xlarge">
-                <div id="itBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%"></div>
+                <div id="itBar" class="w1 w3-progressbar w3-round-xlarge w3-teal" ></div>
               </div>
               <p>English</p>
               <div class="w3-progress-container w3-round-xlarge">
-                <div id="enBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%"></div>
+                <div id="enBar" class="w1 w3-progressbar w3-round-xlarge w3-teal" ></div>
               </div>
               <p>French</p>
               <div class="w3-progress-container w3-round-xlarge">
-                <div id="frBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%"></div>
+                <div id="frBar" class="w1 w3-progressbar w3-round-xlarge w3-teal" ></div>
               </div>
               <p>German</p>
               <div class="w3-progress-container w3-round-xlarge">
-                <div id="deBar" class="w3-progressbar w3-round-xlarge w3-teal" style="width:1%"></div>
+                <div id="deBar" class="w1 w3-progressbar w3-round-xlarge w3-teal" ></div>
               </div>
               <br>
-              <p class="w3-large w3-text-theme"><b><i class="fa fa-coffee fa-fw w3-margin-right w3-text-teal"></i>Interests</b></p>
+              <p class="w3-large w3-text-theme"><i class="fa fa-coffee fa-fw w3-margin-right w3-text-teal"></i>Interests</p>
               <div class="w3-row">
-                <!-- <span class="w3-col s3 m3 l3 w3-center">
-                <i class="fa fa-plane fa-fw w3-text-teal w3-xxxlarge w3-tooltip">
-                </i>
-                </span> -->
-                <!-- <span class="w3-col s3 m3 l3 w3-center">
-                  <i class="material-icons w3-text-teal w3-xxxlarge w3-tooltip">directions_walk
-                  </i>
-                </span> -->
                 <span class="w3-col s3 m3 l3 w3-center">
-                  <i class="material-icons w3-text-teal w3-xxxlarge w3-tooltip">fitness_center
+                  <i class="material-icons w3-text-teal w3-xxlarge w3-tooltip">fitness_center
                   </i>
                 </span>
                 <span class="w3-col s3 m3 l3 w3-center">
-                  <i class="material-icons w3-text-teal w3-xxxlarge w3-tooltip">menu_book
+                  <i class="material-icons w3-text-teal w3-xxlarge w3-tooltip">menu_book
                   </i>
                 </span>
                 <span class="w3-col s3 m3 l3 w3-center">
-                  <i class="material-icons w3-text-teal w3-xxxlarge w3-tooltip">videogame_asset
+                  <i class="material-icons w3-text-teal w3-xxlarge w3-tooltip">videogame_asset
                   </i>
                 </span>
                 <span class="w3-col s3 m3 l3 w3-center">
-                  <i class="fa fa-camera-retro fa-fw w3-text-teal w3-xxxlarge w3-tooltip">
+                  <i class="fa fa-camera-retro fa-fw w3-text-teal w3-xxlarge w3-tooltip">
                   </i>
                 </span>
               </div>
@@ -152,22 +141,17 @@
       <div class="w3-twothird">
         <!-- Work Experience -->
         <div id="Acc0" class="w3-accordion w3-container w3-card-2 w3-white w3-margin-bottom w3-hover-shadow w3-text-grey">
-          <h1 onclick="toggleFunction('0')" class=" w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Experience<i id="AccIcon0" class="fa fa-arrow-down fa-fw w3-right w3-xxlarge w3-text-teal w3-hover-text-cyan"></i></h1>
+          <h2 onclick="toggleFunction('0')" class=" w3-padding-16">
+            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>
+            Career
+            <i id="AccIcon0" class="fa fa-arrow-down fa-fw w3-right w3-xlarge w3-text-teal w3-hover-text-cyan"></i>
+          </h2>
           <div id="AccContent0" class="w3-accordion-content">
-            <!-- CS -->
-            <!-- <div class="w3-container">
-              <h2><b>Java Software Engineer for web applications</b></h2>
-              <p class="w3-text-teal"><i class="fa fa-at fa-fw w3-margin-right"></i>Credit Suisse, CH</p>
-              <p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020 - ongoing</p>
-              <p>Java Software Engineer for web applications.</p>
-            </div>
-            <hr> -->
             <!-- BLACKPOINTS -->
             <div class="w3-container">
               <h2><b>Full Stack Software Engineer for web applications</b></h2>
               <p class="w3-text-teal"><i class="fa fa-at fa-fw w3-margin-right"></i>Blackpoints AG, CH</p>
               <p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - ongoing</p>
-              <!-- <p>Full Stack Developer for web applications.</p> -->
             </div>
             <hr>
             <!-- SUPSI -->
@@ -175,7 +159,6 @@
               <h2><b>Full Stack Software Engineer for mobile oriented and web applications</b></h2>
               <p class="w3-text-teal"><i class="fa fa-at fa-fw w3-margin-right"></i>Laboratory of Visual Culture (SUPSI), Canobbio, CH</p>
               <p class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2016</p>
-              <!-- <p>Full Stack Developer for mobile oriented and web applications.</p> -->
               <p>Providing development support for the ongoing research projects within the university.
                 <ul>
                   <li>Full Stack Developer for mobile oriented applications, web applications and RESTful
@@ -210,9 +193,9 @@
         </div>
         <!-- Education -->
         <div id="Acc1" class="w3-accordion w3-container w3-card-2 w3-white w3-margin-bottom w3-hover-shadow w3-text-grey">
-          <h1 onclick="toggleFunction('1')" class="w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education
-            <a><i id="AccIcon1" class="fa fa-arrow-down fa-fw w3-right w3-xxlarge w3-text-teal w3-hover-text-cyan"></i></a>
-          </h1>
+          <h2 onclick="toggleFunction('1')" class="w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Education
+            <a><i id="AccIcon1" class="fa fa-arrow-down fa-fw w3-right w3-xlarge w3-text-teal w3-hover-text-cyan"></i></a>
+          </h2>
           <div id="AccContent1" class="w3-accordion-content">
             <div class="w3-container">
               <div class="w3-layout-container">
@@ -277,9 +260,9 @@
         </div>
         <!-- Projects and thesis -->
         <div id="Acc2" class="w3-accordion w3-container w3-card-2 w3-white w3-margin-bottom w3-hover-shadow w3-text-grey">
-          <h1 onclick="toggleFunction('2')" class="w3-text-grey w3-padding-16"><i class="fa fa-folder-open fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects and thesis
-            <a><i id="AccIcon2" class="fa fa-arrow-down fa-fw w3-right w3-xxlarge w3-text-teal w3-hover-text-cyan"></i></a>
-          </h1>
+          <h2 onclick="toggleFunction('2')" class="w3-text-grey w3-padding-16"><i class="fa fa-folder-open fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Projects and thesis
+            <a><i id="AccIcon2" class="fa fa-arrow-down fa-fw w3-right w3-xlarge w3-text-teal w3-hover-text-cyan"></i></a>
+          </h2>
           <div id="AccContent2" class="w3-accordion-content">
             <div class=" w3-container">
               <a href="http://www.goeco-project.ch" target="_blank">
@@ -371,9 +354,9 @@
         </div>
         <!-- Additional experience -->
         <div id="Acc3" class="w3-accordion w3-container w3-card-2 w3-white w3-hover-shadow w3-text-grey">
-          <h1 onclick="toggleFunction('3')" class="w3-padding-16"><i class="fa fa-users fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Additional experience
-            <a><i id="AccIcon3" class="fa fa-arrow-down fa-fw w3-right w3-xxlarge w3-text-teal w3-hover-text-cyan"></i></a>
-          </h1>
+          <h2 onclick="toggleFunction('3')" class="w3-padding-16"><i class="fa fa-users fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Additional experience
+            <a><i id="AccIcon3" class="fa fa-arrow-down fa-fw w3-right w3-xlarge w3-text-teal w3-hover-text-cyan"></i></a>
+          </h2>
           <div id="AccContent3" class="w3-accordion-content">
             <div class="w3-container">
               <h2><b>Civilian Service</b></h2>
@@ -401,8 +384,8 @@
     </div>
   </div>
 
-  <footer class="w3-container w3-teal w3-center w3-margin-top">
-    <p>© 2020 <a href="https://github.com/arcaste" target="_blank">Aron Castellani</a></p>
+  <footer class="footer">
+    <span class="copyrights">© 2020 Aron Castellani</span>
   </footer>
 
   <!-- build:js(.) scripts/vendor.js -->
@@ -416,15 +399,15 @@
   <!-- endbuild -->
 
   <script>
-                       (function (i, s, o, g, r, a, m) {
-                         i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                           (i[r].q = i[r].q || []).push(arguments)
-                         }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                           m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-                       })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-                       ga('create', 'UA-91697110-1', 'auto');
-                       ga('send', 'pageview');
+    ga('create', 'UA-91697110-1', 'auto');
+    ga('send', 'pageview');
   </script>
 </body>
 
